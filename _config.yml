@@ -1,10 +1,10 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
+title: Brayan Bedritchuk
+email: brayan.bedritchuk@gmail.com
+url: https://http://brayanbedritchuk.github.io/
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+skills: "Android Developer"
+meta_author: Bedritchuk Brayan
 
 # Google webmaster tools
 google_verify:
@@ -31,7 +31,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Brayan Bedritchuk
   location: Location
   social: Around the Web
   credits: Credits
@@ -47,7 +47,7 @@ social:
   - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/BrayanBedritchuk
 
 # Postal address (add as many lines as necessary)
 address:
