@@ -1,9 +1,9 @@
 # Site settings
-title: Brayan Bedritchuk
+title: Brayan Bedritchuk - Android Developer & UI/UX Designer
 email: brayan.bedritchuk@gmail.com
 baseurl: ""
 url: "http://www.brayanbedritchuk.com"
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "I make beautiful mobile apps following the best visual & interaction design practices with a good and clean code."
 skills: "Android Developer & UI/UX Designer"
 meta_author: Bedritchuk Brayan
 
@@ -39,8 +39,12 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: linkedin
+    url: https://br.linkedin.com/in/brayan-bedritchuk-3815338b
   - title: facebook
-    url:
+    url: https://facebook.com/brayanbedritchuk
+  - title: google-plus
+    url: https://plus.google.com/+BrayanBedritchuk
   - title: github
     url: https://github.com/BrayanBedritchuk
 
