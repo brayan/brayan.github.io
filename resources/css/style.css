@@ -27,6 +27,14 @@
 	font-size: 36px;
 	text-align:center;
 	margin-top: 18px;
+}
+
+.secundary-title {
+	color: var(--text-value-color);
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
+	text-align:center;
+	margin-top: 18px;
 	margin-bottom: 50px;
 }
 
