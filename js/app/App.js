@@ -1,4 +1,4 @@
-import InfoApi from "./api/InfoApi.js";
+import PortfolioInfoApi from "./api/PortfolioInfoApi.js";
 import ProfileView from "./view/ProfileView.js";
 import SocialView from "./view/SocialView.js";
 
@@ -10,13 +10,13 @@ export default class App {
     }
 
     setUp() {
-        this.infoApi = new InfoApi();
+        this.infoApi = new PortfolioInfoApi();
         this.profileView = new ProfileView();
         this.socialView = new SocialView();
     }
 
     loadInfo() {
-        this.infoApi.getUserInfo().then(info => {
+        this.infoApi.getPortfolioInfo().then(info => {
             const profile = {
                 name: info.name,
                 picture: info.picture,
@@ -26,7 +26,7 @@ export default class App {
 
             this.profileView.update(profile);
             this.socialView.update(info.social);
-            
+
         }).catch(error => console.error(error));
     }
 
