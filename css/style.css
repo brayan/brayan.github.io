@@ -1,0 +1,45 @@
+:root {
+	--text-color: #607D8B;
+}
+
+.main-title, 
+.secundary-title, 
+.email, 
+#socialView {
+	color: var(--text-color);
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.main-title {
+	font-size: 36px;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+.secundary-title {
+	font-size: 28px;
+	margin-top: 18px;
+	margin-bottom: 40px;
+}
+
+.email {
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+#img-profile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 38px;
+	width: 152.3px;
+}
+
+a {
+	font-size: 32px;
+}
+
+a:not(:first-child) {
+	margin: 8px;
+}
