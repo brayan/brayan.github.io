@@ -34,12 +34,13 @@
 	margin-right: auto;
 	margin-top: 38px;
 	width: 152.3px;
+	border-radius: 50%;
 }
 
-a {
+a.social {
 	font-size: 32px;
 }
 
-a:not(:first-child) {
+a.social:not(:first-child) {
 	margin: 8px;
 }

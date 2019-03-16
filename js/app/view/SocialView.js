@@ -7,7 +7,7 @@ export default class SocialView extends BaseView {
     }
 
     template(socialNetworks) {
-        return socialNetworks.map(social => `<a href="${social.url}"><i class="${social.icon}"></i></a>`).join("");
+        return socialNetworks.map(social => `<a class="social" href="${social.url}"><i class="${social.icon}"></i></a>`).join("");
     }
 
 }

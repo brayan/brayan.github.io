@@ -1,15 +1,18 @@
+import InfoApi from "./api/InfoApi.js";
 import ProfileView from "./view/ProfileView.js";
 import SocialView from "./view/SocialView.js";
-import InfoApi from "./api/InfoApi.js";
 
 export default class App {
 
     constructor() {
+        this.setUp();
+        this.loadInfo();
+    }
+
+    setUp() {
+        this.infoApi = new InfoApi();
         this.profileView = new ProfileView();
         this.socialView = new SocialView();
-        this.infoApi = new InfoApi();
-
-        this.loadInfo();
     }
 
     loadInfo() {
@@ -24,9 +27,7 @@ export default class App {
             this.profileView.update(profile);
             this.socialView.update(info.social);
             
-        }).catch(error => {
-            console.error("There was an error loading information ", error);
-        });
+        }).catch(error => console.error(error));
     }
 
 }
